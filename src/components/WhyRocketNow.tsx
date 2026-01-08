@@ -11,6 +11,12 @@ export const WhyRocketNow: React.FC = () => {
       image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
     },
     {
+      title: "初期費用・手数料ゼロ",
+      description: "導入費、月額固定費、サービス手数料がすべて0円。売上が発生した分だけの成果報酬型なので、リスクなく始められます。",
+      icon: <BarChart className="h-6 w-6 text-orange-500" />,
+      image: "https://images.unsplash.com/photo-1556742046-806e8ac21e8d?auto=format&fit=crop&q=80&w=600"
+    },
+    {
       title: "緻密なエリアマーケティング",
       description: "どのエリアで、どの時間帯に、どんな料理が求められているか。蓄積されたビッグデータを加盟店様に無償で提供し、新メニュー開発をサポートします。",
       icon: <BarChart className="h-6 w-6 text-orange-500" />,

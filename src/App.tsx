@@ -8,6 +8,7 @@ import { Testimonials } from './components/Testimonials';
 import { Faq } from './components/Faq';
 import { CtaSection } from './components/CtaSection';
 import { Footer } from './components/Footer';
+import { VideoSection } from './components/VideoSection';
 import { FloatingLineBanner } from './components/FloatingLineBanner';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <VideoSection />
         <Features />
         <WhyRocketNow />
         <Steps />

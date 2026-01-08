@@ -5,11 +5,11 @@ export const FloatingLineBanner: React.FC = () => {
   return (
     <div className="fixed bottom-6 right-0 left-0 md:left-auto md:right-8 z-[60] px-6 pointer-events-none">
       <div className="max-w-max mx-auto md:mx-0 pointer-events-auto">
-        <a 
-          href="https://line.me/R/ti/p/@example" // 実際のLINE友だち追加リンクに置き換え
+        <a
+          href="https://lin.ee/DDOVOyZ"
           target="_blank"
           rel="noopener noreferrer"
-          className="line-gradient flex items-center space-x-3 py-2.5 px-5 rounded-full shadow-2xl border border-white/30 hover:scale-105 active:scale-95 transition-all duration-300 group ring-4 ring-[#06C755]/10"
+          className="flex items-center space-x-3 py-2.5 px-5 rounded-full shadow-2xl bg-[#06C755] hover:bg-[#05b64d] border-2 border-white/20 hover:scale-105 active:scale-95 transition-all duration-300 group ring-4 ring-[#06C755]/20"
         >
           <div className="bg-white p-1.5 rounded-full shadow-sm">
             <MessageCircle className="h-5 w-5 text-[#06C755] fill-current" />
