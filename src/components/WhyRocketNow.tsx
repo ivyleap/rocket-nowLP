@@ -6,19 +6,19 @@ export const WhyRocketNow: React.FC = () => {
   const strengths = [
     {
       title: "地域密着の爆速配送網",
-      description: "半径3km以内の専属ライダーが待機。平均20分でお届けするから、料理のクオリティを下げずにリピーターを獲得できます。",
+      description: "半径3km以内の専属ライダーが待機。平均20分の「爆速配送」で、料理のクオリティをそのまま食卓へ。",
       icon: <Zap className="h-6 w-6 text-orange-500" />,
       image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
     },
     {
-      title: "初期費用・手数料ゼロ",
-      description: "導入費、月額固定費、サービス手数料がすべて0円。売上が発生した分だけの成果報酬型なので、リスクなく始められます。",
+      title: "送料・サービス料まですべて0円",
+      description: "ユーザーは常に送料無料。店舗様は初期費用・固定費0円。双方が使いやすいプラットフォームだから、注文が止まりません。",
       icon: <BarChart className="h-6 w-6 text-orange-500" />,
       image: "https://images.unsplash.com/photo-1556742046-806e8ac21e8d?auto=format&fit=crop&q=80&w=600"
     },
     {
-      title: "緻密なエリアマーケティング",
-      description: "どのエリアで、どの時間帯に、どんな料理が求められているか。蓄積されたビッグデータを加盟店様に無償で提供し、新メニュー開発をサポートします。",
+      title: "「お店と同価格」で売上最大化",
+      description: "実店舗と同じ価格で提供することで、顧客満足度が向上。平均売上26%UPの実績が証明する、勝てるデリバリー戦略です。",
       icon: <BarChart className="h-6 w-6 text-orange-500" />,
       image: "https://images.unsplash.com/photo-1551288049-bbbda536339a?auto=format&fit=crop&q=80&w=600"
     }

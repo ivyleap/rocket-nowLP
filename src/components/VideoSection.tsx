@@ -14,8 +14,8 @@ export const VideoSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col items-center">
           <SectionTitle
-            title="90秒でわかるロケットナウ"
-            subtitle="Introduction Video"
+            title="加盟店様の成功事例"
+            subtitle="Success Stories"
           />
 
           <div className="w-full max-w-5xl mt-4 relative group">
@@ -54,10 +54,10 @@ export const VideoSection: React.FC = () => {
                 <div className="bg-orange-500 p-3 rounded-2xl group-hover:rotate-6 transition-transform">
                   <Play className="h-6 w-6 text-white fill-current" />
                 </div>
-                <h4 className="font-bold text-xl text-gray-900">配送オペレーション</h4>
+                <h4 className="font-bold text-xl text-gray-900">売上26%UPの秘密</h4>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                地域最速を支える独自の配送網と、丁寧な商品取り扱いの様子を詳しく紹介しています。
+                「お店と同価格」バッジが適用された店舗では、全体の平均売上が26%増加。ユーザーに選ばれる理由がここにあります。
               </p>
               <div className="flex items-center text-orange-600 font-bold text-sm">
                 動画内 01:20〜 <ArrowRight className="ml-1 h-4 w-4" />
@@ -69,10 +69,10 @@ export const VideoSection: React.FC = () => {
                 <div className="bg-orange-500 p-3 rounded-2xl group-hover:rotate-6 transition-transform">
                   <Play className="h-6 w-6 text-white fill-current" />
                 </div>
-                <h4 className="font-bold text-xl text-gray-900">加盟店様のメリット</h4>
+                <h4 className="font-bold text-xl text-gray-900">注文数が伸びる理由</h4>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                導入によって売上がどのように変化するのか、具体的な成功事例を交えて解説します。
+                ユーザーは「送料0円・サービス料0円」。他社よりも圧倒的に頼みやすい仕組みが、リピーターを生み出し続けます。
               </p>
               <div className="flex items-center text-orange-600 font-bold text-sm">
                 動画内 02:45〜 <ArrowRight className="ml-1 h-4 w-4" />
