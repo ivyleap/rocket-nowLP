@@ -59,9 +59,6 @@ export const VideoSection: React.FC = () => {
               <p className="text-gray-600 leading-relaxed mb-4">
                 「お店と同価格」バッジが適用された店舗では、全体の平均売上が26%増加。ユーザーに選ばれる理由がここにあります。
               </p>
-              <div className="flex items-center text-orange-600 font-bold text-sm">
-                動画内 01:20〜 <ArrowRight className="ml-1 h-4 w-4" />
-              </div>
             </div>
 
             <div className="group bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:border-orange-200 hover:shadow-md transition-all">
@@ -74,9 +71,6 @@ export const VideoSection: React.FC = () => {
               <p className="text-gray-600 leading-relaxed mb-4">
                 ユーザーは「送料0円・サービス料0円」。他社よりも圧倒的に頼みやすい仕組みが、リピーターを生み出し続けます。
               </p>
-              <div className="flex items-center text-orange-600 font-bold text-sm">
-                動画内 02:45〜 <ArrowRight className="ml-1 h-4 w-4" />
-              </div>
             </div>
           </div>
         </div>

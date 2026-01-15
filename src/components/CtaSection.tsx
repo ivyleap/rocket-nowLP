@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from './Button';
 import { Rocket, CheckCircle } from 'lucide-react';
 
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbyHVBPwN465K0900gOM3pFyOoawDBMtrMoCkSHaGV48LoVO958aO6-sa1wsVO7RRLQEWg/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbz5m_pIdNwoqL5VN3aGtJybay5MxsSKKn4kddCdAzrtqbFkzg6XK4DDeIKiITGH0vzJ_A/exec';
 
 export const CtaSection: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -31,8 +31,12 @@ export const CtaSection: React.FC = () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
+
+      // no-corsモードではレスポンスが読めないため、送信したら成功とみなす
       setIsSubmitted(true);
-    } catch {
+
+    } catch (err) {
+      console.error('送信エラー:', err);
       setError('送信に失敗しました。もう一度お試しください。');
     } finally {
       setIsSubmitting(false);
@@ -127,7 +131,7 @@ export const CtaSection: React.FC = () => {
                     <p className="text-red-500 text-sm text-center">{error}</p>
                   )}
                   <div className="pt-4">
-                    <Button fullWidth className="text-lg shadow-lg" disabled={isSubmitting}>
+                    <Button type="submit" fullWidth className="text-lg shadow-lg" disabled={isSubmitting}>
                       {isSubmitting ? '送信中...' : '無料で資料を請求する'}
                     </Button>
                   </div>
