@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionTitle } from './SectionTitle';
-import { Play, ArrowRight } from 'lucide-react';
+import { Play } from 'lucide-react';
 
 export const VideoSection: React.FC = () => {
   // ユーザー指定のYouTube動画ID
