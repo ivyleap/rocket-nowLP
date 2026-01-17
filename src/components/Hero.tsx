@@ -10,7 +10,7 @@ export const Hero: React.FC = () => {
                 <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[60%] h-[60%] bg-orange-600/20 blur-[150px] rounded-full animate-pulse"></div>
                 <div className="absolute bottom-[10%] right-[10%] w-[40%] h-[40%] bg-red-600/10 blur-[120px] rounded-full"></div>
                 <img
-                    src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1920"
+                    src="/rocket-nowLP/images/hero_bg.png"
                     alt="Delicious food delivery background"
                     className="w-full h-full object-cover opacity-20 scale-105"
                 />
