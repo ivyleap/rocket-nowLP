@@ -15,7 +15,7 @@ const testimonials = [
     role: "",
     shopName: "麺屋ダイコク",
     content: "初期費用0円というのが導入の決め手でした。固定費がかからないため、リスクなく始められて、今ではデリバリーの注文も増えてきています。",
-    image: "/rocket-nowLP/images/testimonial_kenichi.png"
+    image: "/rocket-nowLP/images/logo_daikoku.png"
   }
 ];
 
