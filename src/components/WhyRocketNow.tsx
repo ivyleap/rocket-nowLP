@@ -8,7 +8,7 @@ export const WhyRocketNow: React.FC = () => {
       title: "地域密着の爆速配送網",
       description: "半径3km以内の専属ライダーが待機。平均20分の「爆速配送」で、料理のクオリティをそのまま食卓へ。",
       icon: <Zap className="h-6 w-6 text-orange-500" />,
-      image: "/rocket-nowLP/images/strength_speed.png"
+      image: "/rocket-nowLP/images/delivery-woman.jpg"
     },
     {
       title: "送料・サービス料まですべて0円",
@@ -20,7 +20,7 @@ export const WhyRocketNow: React.FC = () => {
       title: "「お店と同価格」で売上最大化",
       description: "実店舗と同じ価格で提供することで、顧客満足度が向上。平均売上26%UPの実績が証明する、勝てるデリバリー戦略です。",
       icon: <BarChart className="h-6 w-6 text-orange-500" />,
-      image: "/rocket-nowLP/images/strength_revenue.png"
+      image: "/rocket-nowLP/images/sales-growth.jpg"
     }
   ];
 
