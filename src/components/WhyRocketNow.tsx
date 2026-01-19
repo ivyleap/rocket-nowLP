@@ -14,7 +14,7 @@ export const WhyRocketNow: React.FC = () => {
       title: "送料・サービス料まですべて0円",
       description: "ユーザーは常に送料無料。店舗様は初期費用・固定費0円。双方が使いやすいプラットフォームだから、注文が止まりません。",
       icon: <BarChart className="h-6 w-6 text-orange-500" />,
-      image: "/rocket-nowLP/images/strength_cost.png"
+      image: "/rocket-nowLP/images/zero-cost-merchant.png"
     },
     {
       title: "「お店と同価格」で売上最大化",
