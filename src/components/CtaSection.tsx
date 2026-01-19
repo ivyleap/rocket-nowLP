@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from './Button';
 import { Rocket, CheckCircle } from 'lucide-react';
 
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbz5m_pIdNwoqL5VN3aGtJybay5MxsSKKn4kddCdAzrtqbFkzg6XK4DDeIKiITGH0vzJ_A/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbxMGYBuEbZTkrdRaREhrx_TGTnWLZkrFZZMNk6jwUtR8q0k9NjCjyajSY4zC55TEFPDGQ/exec';
 
 export const CtaSection: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -54,7 +54,7 @@ export const CtaSection: React.FC = () => {
                 <span className="ml-3 text-2xl font-bold">Rocket Now</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-                まずは無料で<br/>資料請求から。
+                まずは無料で<br />資料請求から。
               </h2>
               <p className="text-orange-100 mb-8 text-lg">
                 あなたの街の新しいファンを見つけに行きませんか？
