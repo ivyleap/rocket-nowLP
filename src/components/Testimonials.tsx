@@ -4,25 +4,18 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "佐藤 健一",
-    role: "オーナーシェフ",
-    shopName: "Bistro ROCKET",
-    content: "導入して最初の月から売上が30%アップしました。特に雨の日のオーダーが増え、天候に左右されない安定した経営ができるようになりました。配送品質の高さにも満足しています。",
-    image: "/rocket-nowLP/images/testimonial_kenichi.png"
-  },
-  {
-    name: "田中 美咲",
-    role: "店長",
-    shopName: "カフェ・ド・ソレイユ",
+    name: "舩木",
+    role: "オーナー",
+    shopName: "Chinese Dining 「ｆ」",
     content: "タブレットの操作が非常に簡単で、忙しい時間帯でもアルバイトスタッフがスムーズに対応できています。配達員の方のマナーが良く、安心してお客様に商品を届けられます。",
     image: "/rocket-nowLP/images/testimonial_misaki.png"
   },
   {
-    name: "高橋 誠",
-    role: "オーナー",
-    shopName: "中華そば 満腹",
-    content: "初期費用0円というのが導入の決め手でした。固定費がかからないため、リスクなく始められて、今ではデリバリーだけで1日50食以上出る日もあり、利益の柱になっています。",
-    image: "https://picsum.photos/id/1062/100/100"
+    name: "店主",
+    role: "",
+    shopName: "麺屋ダイコク",
+    content: "初期費用0円というのが導入の決め手でした。固定費がかからないため、リスクなく始められて、今ではデリバリーの注文も増えてきています。",
+    image: "/rocket-nowLP/images/testimonial_kenichi.png"
   }
 ];
 
@@ -35,7 +28,7 @@ export const Testimonials: React.FC = () => {
           subtitle="Voice"
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((item, index) => (
             <div key={index} className="bg-white p-8 rounded-2xl shadow-sm border border-orange-100">
               <div className="flex space-x-1 mb-4">
