@@ -1,6 +1,6 @@
 export interface FaqItem {
     question: string;
-    answer: string;
+    answer: string | React.ReactNode;
 }
 
 export interface FeatureItem {
