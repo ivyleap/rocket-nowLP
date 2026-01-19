@@ -8,7 +8,7 @@ const testimonials = [
     role: "オーナー",
     shopName: "Chinese Dining 「ｆ」",
     content: "タブレットの操作が非常に簡単で、忙しい時間帯でもアルバイトスタッフがスムーズに対応できています。配達員の方のマナーが良く、安心してお客様に商品を届けられます。",
-    image: "/rocket-nowLP/images/testimonial_misaki.png"
+    image: "/rocket-nowLP/images/logo_f.jpg"
   },
   {
     name: "店主",
