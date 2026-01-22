@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Google Apps Script (contains sensitive API keys)
+gas/
+*.gs

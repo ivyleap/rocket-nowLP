@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from './Button';
 import { Rocket, CheckCircle } from 'lucide-react';
 
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbxMGYBuEbZTkrdRaREhrx_TGTnWLZkrFZZMNk6jwUtR8q0k9NjCjyajSY4zC55TEFPDGQ/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbzDXx1tiubv_Ls1txVuN6bW5uZTD-tcsNxv3Goua6zT48AxFlGZwasy10jyJvnNrCcJBA/exec';
 
 export const CtaSection: React.FC = () => {
   const [formData, setFormData] = useState({
